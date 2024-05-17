@@ -1,0 +1,40 @@
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{  
+    "name": "Avengers: Endgame",
+"img": "https://bit.ly/2Pzczlb",
+"summary": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America, and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe."
+}
+####
+GET http://localhost:3000/books
+
+####
+
+GET http://localhost:3000/books/6646ceefe17bf97ffabf86e3
+####
+
+PUT http://localhost:3000/books/6646d2bcea80ea6d17c526c6
+Content-Type: application/json
+
+{
+    "name": "Avengers: Fisrgame"
+}
+
+####
+PATCH  http://localhost:3000/books/6646d0820d31cb09ae95336a
+Content-Type: application/json
+
+{
+    "name": "Dattavenkataramana"
+}
+
+####
+DELETE http://localhost:3000/books/6646d0c70d31cb09ae95336e
+
+####
+
+
+
+ 
